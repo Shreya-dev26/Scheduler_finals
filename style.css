@@ -1,0 +1,234 @@
+.container {
+    width: 1519px;
+    height: 1117px;
+    position: relative;
+    background: #D0B4D5;
+}
+
+.rectangle {
+    width: 1135px;
+    height: 1009px;
+    left: 355px; /* Adjusted */
+    top: 54px;
+    position: absolute;
+    background: rgba(0, 56, 139, 0.70);
+    border-radius: 50px;
+    border: 2px black solid;
+}
+
+.remaining-theory,
+.remaining-practs {
+    width: 320px;
+    height: 53px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.remaining-theory {
+    left: 790px; /* Adjusted */
+    top: 862px;
+}
+
+.remaining-practs {
+    left: 430px; /* Adjusted */
+    top: 862px;
+}
+
+.enter-button {
+    padding: 10px;
+    position: absolute;
+    left: 1013px; /* Adjusted */
+    top: 112px;
+    border-radius: 10px;
+    border: 1px rgba(35.26, 30.80, 30.80, 0.61) solid;
+    color: white;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.total-practs,
+.total-theory,
+.total-lects,
+.theory-section,
+.pract-section,
+.ads,
+.cn,
+.sepm,
+.pp,
+.esiot,
+.daa,
+.peace,
+.ps,
+.generate-button,
+.remaining-practs-2 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.total-practs {
+    width: 195px;
+    height: 46px;
+    left: 430px; /* Adjusted */
+    top: 121px;
+}
+
+.total-theory {
+    width: 264px;
+    height: 58px;
+    left: 791px; /* Adjusted */
+    top: 121px;
+}
+
+.total-lects {
+    width: 206px;
+    height: 41px;
+    left: 1154px; /* Adjusted */
+    top: 121px;
+}
+
+.theory-section {
+    width: 212px;
+    height: 154px;
+    padding: 10px;
+    left: 372px; /* Adjusted */
+    top: 350px;
+    background: rgba(180.29, 143.09, 193.36, 0.50);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: white;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.pract-section {
+    width: 213px;
+    height: 151px;
+    padding: 10px;
+    left: 370px; /* Adjusted */
+    top: 565px;
+    background: rgba(180.29, 143.09, 193.36, 0.50);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: white;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ads {
+    width: 100px;
+    left: 580px; /* Adjusted */
+    top: 288px;
+}
+
+.cn {
+    width: 80px;
+    left: 692px; /* Adjusted */
+    top: 288px;
+}
+
+.sepm {
+    width: 83px;
+    left: 791px; /* Adjusted */
+    top: 287px;
+}
+
+.pp {
+    width: 80px;
+    left: 923px; /* Adjusted */
+    top: 287px;
+}
+
+.esiot {
+    left: 1023px; /* Adjusted */
+    top: 288px;
+}
+
+.daa {
+    width: 78px;
+    height: 43px;
+    left: 1154px; /* Adjusted */
+    top: 287px;
+}
+
+.peace {
+    left: 1349px; /* Adjusted */
+    top: 288px;
+}
+
+.ps {
+    left: 1266px; /* Adjusted */
+    top: 287px;
+}
+
+.generate-button {
+    width: 340px;
+    height: 71px;
+    padding: 10px;
+    left: 773px; /* Adjusted */
+    top: 974px;
+    position: absolute;
+    background: #2A3692;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: white;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.remaining-practs-2 {
+    width: 320px;
+    height: 53px;
+    left: 1154px; /* Adjusted */
+    top: 862px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.theory-rectangle {
+    width: 930px;
+    height: 154px;
+    left: 546px; /* Adjusted */
+    top: 350px;
+    position: absolute;
+    background: #6C5880;
+    border-radius: 25px;
+}
+
+.pract-rectangle {
+    width: 930px;
+    height: 156px;
+    left: 546px; /* Adjusted */
+    top: 560px;
+    position: absolute;
+    background: #6C5880;
+    border-radius: 25px;
+}
